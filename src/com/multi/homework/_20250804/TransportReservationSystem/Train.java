@@ -1,8 +1,8 @@
 package com.multi.homework._20250804.TransportReservationSystem;
 
-public class Tranin extends Transport{
+public class Train extends Transport{
     int occupied;
-    public Tranin(String id, int capacity) {
+    public Train(String id, int capacity) {
         super(id, capacity);
         this.occupied = 0;
     }
